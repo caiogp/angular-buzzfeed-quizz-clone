@@ -1,50 +1,245 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Com qual frequencia você sente a seguintes situações :",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Nervossismo ?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Preocupação ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Tremores,palpitações, espasmos musculares ?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Tensão muscular ou dores musculares ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Inquietação ?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":6,
+      "question": " Cansaço Facil ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    }
+    ,
+    {
+      "id":7,
+      "question": "Falta de ar?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":8,
+      "question": " Batimento cardiaco acelerado ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":9,
+      "question": "Transpiração ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":10,
+      "question": "Boca seca ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":11,
+      "question": "Tontura ou vertigem ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":12,
+      "question": "Náusea,diarreia ou problemas estomacais ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":13,
+      "question": "Aumento da urgência urinaria?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":14,
+      "question": "Rubores (calores) ou calafrios ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":15,
+      "question": "Sentindo-se tenso ou excitado ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":16,
+      "question": "Dificuldade para engolir ou Nó na garganta ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":17,
+      "question": "Facilmente assustado ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":18,
+      "question": " Dificuldade de concetração?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":19,
+      "question": "Dificuldade para adormecer ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":20,
+      "question": "Irritabilidade ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":21,
+      "question": "Evitando lugares onde posso ficar ansioso ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":22,
+      "question": "Pesamentos de perigo ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":23,
+      "question": "Sentindo-se incapaz de lidar com as dificuldades?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
+      ]
+    },
+    {
+      "id":24,
+      "question": "Pensamento de que algo terrivel irá acontecer ?",
+      "options":[
+        {"id": 1, "name":"Nem um pouco", "alias":0},
+        {"id": 2, "name":"As vezes ", "alias":1},
+        {"id": 3, "name":"Frequentemente", "alias":2},
+        {"id": 4, "name":"A maior parte do tempo", "alias":3}
       ]
     }
   ],
