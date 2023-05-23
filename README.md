@@ -1,6 +1,8 @@
 # ProjetoBuzzfeed
 Neste projeto modifiquei o arquivo json onde virou um questionario que mensura o nivel de ansiedade
 modifiquei tambem a logica interna de strings para number e adicionei mais 4 repostas possiveis
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Development server
