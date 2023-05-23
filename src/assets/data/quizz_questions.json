@@ -3,7 +3,7 @@
   "questions":[
     {
       "id":1,
-      "question": "Nervossismo ?",
+      "question": "Nervosismo ?",
       "options":[
         {"id": 1, "name":"Nem um pouco", "alias":0},
         {"id": 2, "name":"As vezes ", "alias":1},
@@ -244,6 +244,6 @@
     }
   ],
   "results":{
-   
+
   }
 }
