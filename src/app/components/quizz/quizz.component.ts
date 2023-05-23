@@ -14,7 +14,7 @@ export class QuizzComponent implements OnInit {
   questions:any
   questionSelected:any
 
-  answers:string[] = []
+  answers:number[] = []
   answerSelected:string =""
 
   questionIndex:number =0
@@ -41,7 +41,7 @@ export class QuizzComponent implements OnInit {
 
   }
 
-  playerChoose(value:string){
+  playerChoose(value:number){
     this.answers.push(value)
     this.nextStep()
 
@@ -53,23 +53,30 @@ export class QuizzComponent implements OnInit {
     if(this.questionMaxIndex > this.questionIndex){
         this.questionSelected = this.questions[this.questionIndex]
     }else{
-      const finalAnswer:string = await this.checkResult(this.answers)
+      const finalAnswer:number = await this.checkResult(this.answers)
       this.finished = true
-      this.answerSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results ]
+      if (finalAnswer<8) {
+        this.answerSelected="Ansiedade Baixa"
+      } else {if (finalAnswer<17) {
+               this.answerSelected="Ansiedade Média"
+
+              } else {if (finalAnswer<27) {
+                      this.answerSelected="Ansiedade Alta"
+
+                     } else {
+                         this.answerSelected="Ansiedade Severa"
+                        }
+
+               }
+
+      }
     }
   }
 
-  async checkResult(anwsers:string[]){
+  async checkResult(anwsers:number[]){
 
-    const result = anwsers.reduce((previous, current, i, arr)=>{
-        if(
-          arr.filter(item => item === previous).length >
-          arr.filter(item => item === current).length
-        ){
-          return previous
-        }else{
-          return current
-        }
+    const result = anwsers.reduce((previous, current)=>{
+      return previous+current
     })
 
     return result

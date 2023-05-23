@@ -2,7 +2,7 @@
 
   <div class="quizz_logo">
     <img src="assets/imgs/logo.png" alt="" srcset="">
-    <h3>{{title}}</h3>
+    <h3 *ngIf=!finished >{{title}}</h3>
   </div>
 
   <div *ngIf=!finished class="quizz_questions">
@@ -22,7 +22,7 @@
   </div>
 
   <div *ngIf=finished class="quizz_results">
-    <h1>O Seu resultado é:</h1>
-    <p>{{answerSelected}}</p>
+    <h3>O Seu resultado é:</h3>
+    <h1>{{answerSelected}}</h1>
   </div>
 </div>
